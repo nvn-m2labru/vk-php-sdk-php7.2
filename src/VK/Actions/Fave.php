@@ -17,7 +17,7 @@ use VK\Exceptions\VKClientException;
 class Fave implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

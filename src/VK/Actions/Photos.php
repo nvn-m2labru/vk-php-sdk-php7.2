@@ -24,7 +24,7 @@ use VK\Exceptions\VKClientException;
 class Photos implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

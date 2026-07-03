@@ -51,57 +51,57 @@ class AuthorizeUrlParams
      * @var string
      * @see ResponseType
      */
-    protected string $response_type = ResponseType::CODE;
+    protected $response_type = ResponseType::CODE;
 
     /**
      * @var int
      */
-    protected int $client_id;
+    protected $client_id;
 
     /**
      * @var string
      */
-    protected string $code_challenge;
+    protected $code_challenge;
 
     /**
      * @var string
      */
-    protected string $code_challenge_method = 'S256';
+    protected $code_challenge_method = 'S256';
 
     /**
      * @var string
      */
-    protected string $redirect_uri;
+    protected $redirect_uri;
 
     /**
      * @var string
      */
-    protected string $state;
+    protected $state;
 
     /**
      * @var string[]
      */
-    protected array $scopes = [Scopes::PERSONAL_INFO];
+    protected $scopes = [Scopes::PERSONAL_INFO];
 
     /**
      * @var string
      */
-    protected string $prompt = self::PROMPT_DEFAULT;
+    protected $prompt = self::PROMPT_DEFAULT;
 
     /**
      * @var string
      */
-    protected string $provider = self::PROVIDER_VKID;
+    protected $provider = self::PROVIDER_VKID;
 
     /**
      * @var int
      */
-    protected int $lang_id = self::LANG_RUS;
+    protected $lang_id = self::LANG_RUS;
 
     /**
      * @var string
      */
-    protected string $scheme = self::SCHEME_LIGHT;
+    protected $scheme = self::SCHEME_LIGHT;
 
     /**
      * @param int $client_id

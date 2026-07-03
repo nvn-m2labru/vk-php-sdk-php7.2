@@ -60,12 +60,12 @@ class VKApiClient
     /**
      * @var VKApiRequest
      */
-    private VKApiRequest $request;
+    private $request;
 
     /**
      * @var array<string, ActionInterface>
      */
-    private array $instances = [];
+    private $instances = [];
 
     /**
      * VKApiClient constructor.

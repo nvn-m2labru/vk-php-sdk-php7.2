@@ -24,44 +24,44 @@ class AuthorizeUrlParams
      * @var string
      * @see ResponseType
      */
-    protected string $responseType;
+    protected $responseType;
 
     /**
      * @var int
      */
-    protected int $clientId;
+    protected $clientId;
 
     /**
      * @var string
      */
-    protected string $redirectUri;
+    protected $redirectUri;
 
     /**
      * @var string
      * @see Display
      */
-    protected string $display;
+    protected $display;
 
     /**
      * @var string
      */
-    protected string $state;
+    protected $state;
 
     /**
      * @var int[]
      * @see Scopes
      */
-    protected array $scopes = [];
+    protected $scopes = [];
 
     /**
      * @var int[]
      */
-    protected array $groupIds = [];
+    protected $groupIds = [];
 
     /**
      * @var bool
      */
-    protected bool $revoke = false;
+    protected $revoke = false;
 
     public function __construct(string $responseType, int $clientId, string $redirectUri, string $display, string $state)
     {

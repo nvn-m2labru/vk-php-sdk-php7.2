@@ -23,42 +23,42 @@ class TokensParams
     /**
      * @var int
      */
-    private int $client_id;
+    private $client_id;
 
     /**
      * @var string
      */
-    private string $code_verifier;
+    private $code_verifier;
 
     /**
      * @var string
      */
-    private string $redirect_uri;
+    private $redirect_uri;
 
     /**
      * @var string
      */
-    private string $code;
+    private $code;
 
     /**
      * @var string
      */
-    private string $device_id;
+    private $device_id;
 
     /**
      * @var string
      */
-    private string $service_token = '';
+    private $service_token = '';
 
     /**
      * @var string
      */
-    private string $ip = '';
+    private $ip = '';
 
     /**
      * @var string
      */
-    private string $view_type = ViewType::VIEW_TYPE_RFC;
+    private $view_type = ViewType::VIEW_TYPE_RFC;
 
     /**
      * @param int    $client_id

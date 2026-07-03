@@ -31,7 +31,7 @@ use VK\Exceptions\VKClientException;
 class Ads implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

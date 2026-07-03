@@ -13,7 +13,7 @@ use VK\Exceptions\VKClientException;
 class Store implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

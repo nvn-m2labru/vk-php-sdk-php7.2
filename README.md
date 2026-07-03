@@ -1,3 +1,6 @@
+# IMPORTANT
+No fixes, no improvements. Only goal - make library PHP 7.2 compatible.
+
 # vkcom/vk-php-sdk
 
 PHP library for VK API interaction, includes OAuth 2.0 authorization and API methods. Full VK API features documentation

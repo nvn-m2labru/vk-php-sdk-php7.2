@@ -18,7 +18,7 @@ use VK\Exceptions\VKClientException;
 class Polls implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

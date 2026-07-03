@@ -10,7 +10,7 @@ use VK\Exceptions\VKClientException;
 class Search implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

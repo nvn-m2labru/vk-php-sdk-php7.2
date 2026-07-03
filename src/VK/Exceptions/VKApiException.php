@@ -9,22 +9,22 @@ class VKApiException extends VKException
     /**
      * @var int
      */
-    protected int $error_code;
+    protected $error_code;
 
     /**
      * @var string
      */
-    protected string $description;
+    protected $description;
 
     /**
      * @var string
      */
-    protected string $error_message;
+    protected $error_message;
 
     /**
      * @var VKApiError
      */
-    protected VKApiError $error;
+    protected $error;
 
     /**
      * VKApiException constructor.

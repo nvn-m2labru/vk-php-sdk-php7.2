@@ -15,37 +15,37 @@ class VKApiError
     /**
      * @var int|null
      */
-    protected ?int $error_code = null;
+    protected $error_code = null;
 
     /**
      * @var string|null
      */
-    protected ?string $error_msg = null;
+    protected $error_msg = null;
 
     /**
      * @var string|null
      */
-    protected ?string $captcha_sid = null;
+    protected $captcha_sid = null;
 
     /**
      * @var string|null
      */
-    protected ?string $captcha_img = null;
+    protected $captcha_img = null;
 
     /**
      * @var string|null
      */
-    protected ?string $confirmation_text = null;
+    protected $confirmation_text = null;
 
     /**
      * @var string|null
      */
-    protected ?string $redirect_uri = null;
+    protected $redirect_uri = null;
 
     /**
      * @var array<array-key, mixed>|null
      */
-    protected ?array $request_params = null;
+    protected $request_params = null;
 
     /**
      * VKApiError constructor.

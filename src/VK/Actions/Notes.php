@@ -16,7 +16,7 @@ use VK\Exceptions\VKClientException;
 class Notes implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

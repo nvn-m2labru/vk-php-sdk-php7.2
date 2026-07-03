@@ -11,7 +11,7 @@ use VK\Exceptions\VKClientException;
 class Status implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

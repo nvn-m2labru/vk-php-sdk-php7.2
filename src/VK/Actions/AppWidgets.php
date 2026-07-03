@@ -21,7 +21,7 @@ use VK\Exceptions\VKClientException;
 class AppWidgets implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

@@ -13,17 +13,17 @@ class LogoutParams
     /**
      * @var int
      */
-    private int $client_id;
+    private $client_id;
 
     /**
      * @var string
      */
-    private string $access_token;
+    private $access_token;
 
     /**
      * @var string
      */
-    private string $view_type = ViewType::VIEW_TYPE_RFC;
+    private $view_type = ViewType::VIEW_TYPE_RFC;
 
     /**
      * @param int    $client_id

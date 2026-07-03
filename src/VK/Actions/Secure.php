@@ -13,7 +13,7 @@ use VK\Exceptions\VKClientException;
 class Secure implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

@@ -14,7 +14,7 @@ use VK\Exceptions\VKClientException;
 class Newsfeed implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

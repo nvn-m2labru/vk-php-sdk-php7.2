@@ -26,22 +26,22 @@ class VKApiRequest
     /**
      * @var string
      */
-    protected string $host;
+    protected $host;
 
     /**
      * @var ClientInterface
      */
-    protected ClientInterface $client;
+    protected $client;
 
     /**
      * @var string
      */
-    protected string $version;
+    protected $version;
 
     /**
      * @var string|null
      */
-    protected ?string $language;
+    protected $language;
 
     /**
      * VKApiRequest constructor.

@@ -20,7 +20,7 @@ use VK\Exceptions\VKClientException;
 class Friends implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

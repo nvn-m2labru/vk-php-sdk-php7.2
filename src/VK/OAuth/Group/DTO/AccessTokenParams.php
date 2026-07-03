@@ -14,22 +14,22 @@ class AccessTokenParams
     /**
      * @var int
      */
-    protected int $clientId;
+    protected $clientId;
 
     /**
      * @var string
      */
-    protected string $clientSecret;
+    protected $clientSecret;
 
     /**
      * @var string
      */
-    protected string $redirectUri;
+    protected $redirectUri;
 
     /**
      * @var string
      */
-    protected string $code;
+    protected $code;
 
     /**
      * @param int $clientId

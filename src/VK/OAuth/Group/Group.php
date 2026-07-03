@@ -22,7 +22,7 @@ class Group extends AbstractOAuth
     /**
      * @var string
      */
-    private string $version;
+    private $version;
 
     /**
      * @param ClientInterface|null $client

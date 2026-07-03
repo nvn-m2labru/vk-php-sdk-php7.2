@@ -15,7 +15,7 @@ use VK\Exceptions\VKClientException;
 class Users implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

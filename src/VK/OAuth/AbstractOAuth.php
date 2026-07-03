@@ -19,17 +19,20 @@ abstract class AbstractOAuth
     protected const RESPONSE_KEY_ERROR = 'error';
     protected const RESPONSE_KEY_ERROR_DESCRIPTION = 'error_description';
 
-    protected float $timeout = self::CONNECTION_TIMEOUT;
+    /**
+     * @var float
+     */
+    protected $timeout = self::CONNECTION_TIMEOUT;
 
     /**
      * @var string
      */
-    protected string $host;
+    protected $host;
 
     /**
      * @var ClientInterface
      */
-    protected ClientInterface $client;
+    protected $client;
 
     /**
      * @param ClientInterface|null $client
@@ -96,7 +99,7 @@ abstract class AbstractOAuth
      * @throws VKClientException
      * @throws VKOAuthException
      */
-    protected function checkOAuthResponse(ResponseInterface $response): mixed
+    protected function checkOAuthResponse(ResponseInterface $response)
     {
         if ($response->getStatusCode() !== static::HTTP_STATUS_CODE_OK) {
             throw new VKClientException("Invalid http status: {$response->getStatusCode()}");

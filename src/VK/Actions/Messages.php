@@ -67,7 +67,7 @@ use VK\Exceptions\VKClientException;
 class Messages implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

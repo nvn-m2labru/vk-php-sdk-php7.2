@@ -10,7 +10,7 @@ use VK\Exceptions\VKClientException;
 class Calls implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

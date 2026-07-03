@@ -12,7 +12,7 @@ use VK\Exceptions\VKClientException;
 class DownloadedGames implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

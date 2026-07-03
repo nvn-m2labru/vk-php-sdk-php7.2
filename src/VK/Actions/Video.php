@@ -27,7 +27,7 @@ use VK\Exceptions\VKClientException;
 class Video implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**

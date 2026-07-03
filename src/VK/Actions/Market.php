@@ -63,7 +63,7 @@ use VK\Exceptions\VKClientException;
 class Market implements ActionInterface
 {
 	/** @param VKApiRequest $request */
-	private VKApiRequest $request;
+	private $request;
 
 
 	/**
