@@ -45,7 +45,7 @@ class User extends AbstractOAuth
      * @param string $host
      * @return $this
      */
-    public function setHost(string $host): self
+    public function setHost(string $host)
     {
         $this->host = $host;
         return $this;

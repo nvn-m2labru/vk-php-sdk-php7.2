@@ -1,5 +1,5 @@
 # IMPORTANT
-No fixes, no improvements. Only goal - make library PHP 7.2 compatible.
+Simple fixes, no improvements. Only goal - make library PHP 7.2 compatible.
 
 # vkcom/vk-php-sdk
 

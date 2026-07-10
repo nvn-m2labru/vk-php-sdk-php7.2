@@ -1,6 +1,7 @@
 <?php
 
 use VK\OAuth\User\DTO\AuthorizeUrlParams;
+use VK\OAuth\User\DTO\Scopes;
 use VK\OAuth\User\DTO\TokensParams;
 use VK\OAuth\User\User;
 
@@ -20,8 +21,8 @@ $authParams = (new AuthorizeUrlParams(
     $clientId,
     $verifier,
     $redirectUri,
-    $state,
-))->setScope([Scopes::EMAIL, Scopes::PHONE]);
+    $state
+))->setScopes([Scopes::EMAIL, Scopes::PHONE]);
 
 $authUrl = $auth->getAuthorizeUrl($authParams);
 

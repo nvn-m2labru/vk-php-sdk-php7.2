@@ -20,7 +20,7 @@ $authParams = new AuthorizeUrlParams(
     $clientId,
     $redirectUri,
     Display::PAGE,
-    $state,
+    $state
 );
 
 $authUrl = $auth->getAuthorizeUrl($authParams);

@@ -61,7 +61,7 @@ abstract class AbstractOAuth
         return $this->host;
     }
 
-    public function setHost(string $host): self
+    public function setHost(string $host)
     {
         $this->host = rtrim($host, '/');
         return $this;
